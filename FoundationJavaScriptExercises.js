@@ -36,4 +36,4 @@ const isMember = (mem, arr1) => {
 console.log(isMember(5, [1, 3, 7, 12]));
 console.log(isMember("john", ["jane", "jim", "john"]));
 
-//*
+//*dfdfddd
