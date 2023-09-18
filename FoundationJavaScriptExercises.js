@@ -400,7 +400,7 @@ fib(6); // 0, 1, 1, 2, 3, 5
 //     Medium
 // --------------------------------------------------------------------------------------------------------------------------
 
-//* 1. Write a function maxNegMinPos(arr)
+//* 1. Write a function maxNegMinPos(arr)g
 //  maxNegMinPos(arr) takes in an array arr, and it prints the max negative value (maxNeg) as well as the min positive value (minPos)
 
 const arr1m = [12, -13, 14, 4, 2, -1, -18];
