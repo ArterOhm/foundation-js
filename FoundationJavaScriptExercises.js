@@ -427,3 +427,40 @@ maxNegMinPos(arr1m);
 
 // MaxNeg is -1
 // MinPos is 2
+
+//* 2.Write a function prime(n)
+// prime(n) returns an array of first n prime numbers
+const prime = (n) => {
+  const a = [2, 3];
+
+  let sum = 4;
+  while (n > a.length) {
+    sum = sum + 1;
+    while (i < a.length) {
+      let i = 0;
+      if (sum % a[i] === 0) {
+        i = i + 1;
+        continue;
+      } else if (sum % a[i] === 1) {
+        i = i + 1;
+        continue;
+      }
+      a.push(sum);
+    }
+  }
+
+  //   let sum = 2;
+  //   while (n > a.length) {
+  //     for (let i = 0; i < a.length; i++) {
+  //       if (sum % a[i] === 0) {
+  //         sum = sum + 1;
+  //       } else {
+  //         a.push(sum);
+  //       }
+  //     }
+  //   }
+  return console.log(a);
+};
+console.log(5 % 3);
+prime(4); // [2, 3, 5, 7]
+prime(5); // [2, 3, 5, 7, 11]
